@@ -1,0 +1,83 @@
+@font-face {
+    font-family: cheri;
+    src: url(assets/fonts/cheri/CHERL___.TTF);
+}
+@font-face {
+    font-family: bebas;
+    src: url(assets/fonts/bebas/Bebas-Regular.ttf);
+}
+
+body {
+    background-color: lightpink;
+}
+
+label {
+    font-family: bebas;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 5px hotpink;
+}
+
+.genheader {
+    font-family: cheri;
+    font-size: 35px;
+    text-shadow: 2px 1px 2px hotpink ;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.text {
+    color: white;
+    text-shadow: 2px 2px 5px hotpink;
+    font-family: bebas;
+    font-size: 28px;
+
+}
+
+.hobbies {
+    background-color: #f8c3da;
+    padding: 20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 30px;
+}
+
+.hobbypics {
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline;
+    margin-right: 40px;
+}
+
+#headtitle {
+    font-family: cheri;
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 1px 2px 2px hotpink;
+}
+
+#pfp {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 12px white double;
+    filter: drop-shadow(40px 20px 30px rgb(0, 0, 0));
+    /* filter: drop-shadow(x-axis, y-axis, blur radius) */
+}
+
+#bio {
+    font-family: bebas;
+    text-align: center;
+    font-size: 30px ;
+    margin-bottom: 80px;
+}
